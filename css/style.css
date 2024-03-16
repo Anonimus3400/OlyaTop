@@ -2,13 +2,31 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: "Montserrat";
 }
 .headerMan {
-    display: flex;
+
 }
 .headerMan .dangeon-section {
     display: flex;
+    font-weight: 700;
+    font-size: 18px;
 }
+
 .headerMan ul {
     display: flex;
+}
+.headerMan .container {
+    width: 90%;
+    display: flex;
+    margin: 28px;
+}
+.headerMan .container img {
+    /* display: flex;
+    justify-content: flex-end; */
+    /* text-align: right; */
+}
+.image-jo {
+    display: flex;
+    justify-content: end;
 }
