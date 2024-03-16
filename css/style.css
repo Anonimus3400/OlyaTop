@@ -3,6 +3,8 @@
     padding: 0;
     list-style: none;
     font-family: "Montserrat";
+    /* color: black; */
+    text-decoration: none;
 }
 .headerMan {
 
@@ -19,6 +21,8 @@
     margin: 0 13.7% 0 18.8%;
 }
 .headerMan ul li {
+    font-size: 14px;
+    font-weight: 500;
     margin: 0 12px;
 }
 .headerMan .container {
@@ -34,6 +38,37 @@
     justify-content: flex-end; */
     /* text-align: right; */
 }
+.headerMan p {
+    text-transform: uppercase;
+    /* margin: ; */
+}
 .popaolya {
+    margin-right: 5px;
     font-style: italic;
+}
+
+
+.gachiman .container {
+    color: #FFFFFFB2;
+    background-color: #1E1823;
+    height: 344px;
+    width: 100%;
+    font-size: 14px;
+    /* df */
+}
+
+.gachiman .container .thag {
+    font-weight: 600;
+    color: white;
+}
+.gachiman .container ul {
+    display: flex;
+}
+.gachiman .container ul li {
+    margin: 50px 35px;
+
+}
+.gachiman article {
+    border-right: 1px solid white;
+    /* border-right: 10px; */
 }
